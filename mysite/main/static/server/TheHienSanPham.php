@@ -1,9 +1,11 @@
+{% load static %}
+{% block content %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
 <script>
   $(document).ready(function() {
     $(".btn_loaisanpham").click(function() {
       maloai = $(this).attr('id');
-      $(".dssp").load("../server/TheHienSanPham.php", {
+      $(".dssp").load("/server/TheHienSanPham.php", {
         maloai: maloai
       });
     });
@@ -46,3 +48,4 @@ foreach ($dsloaisanpham as $loaisanpham) {
   echo '</div>';
 }
 ?>
+{% endblock %}

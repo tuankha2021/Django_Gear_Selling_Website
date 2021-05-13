@@ -17,10 +17,14 @@
         <b style="text-decoration: underline; font-weight: bolder">Email:</b>
         18521034@gm.uit.edu.vn
       </h3>
+      <h3>
+        <b style="text-decoration: underline; font-weight: bolder">Email:</b>
+        18520873@gm.uit.edu.vn
+      </h3>
       <h4>Hệ Thống Tổng Đài(Làm việc từ 8h - 20h):</h4>
       <h2>18001234</h2>
       <a href="http://online.gov.vn/">
-        <img src="https://theme.hstatic.net/1000026716/1000422677/14/20150827110756-dathongbao.png" alt="" style="max-width: 200px; float: left; padding-left: 20px" />
+        <img src="https://lh3.googleusercontent.com/proxy/wjol5EF951ECX_unLGZEnu9zJ_iuvqjr0EVmGMRdtpcifkRkE2qgwbhTyc81PgEkiJ4LTD06kOPJC5Ie9dFooBLCURumS6Q" alt="" style="max-width: 100px; float: left; padding-left: 20px" />
       </a>
     </div>
     <div class="column2">
@@ -37,7 +41,7 @@
         31/12/2020
       </p>
       <p>- GĐ/Sở hữu website: </p>
-      <h3>Nguyễn Thành Lân, Nguyễn Đức Huy Long</h3>
+      <h3>Nguyễn Thành Lân, Nguyễn Đức Huy Long, Nguyễn Tuấn Kha</h3>
       <img src="https://images.dmca.com/Badges/dmca-badge-w250-5x1-10.png?ID=cfa9ce2f-970b-4eaf-a489-41e89ee0e9fc" alt="DMCA.com Protection Status" class="center" />
     </div>
     <div class="column2">

@@ -34,7 +34,7 @@
     <div class="accountField">
       <?php include_once("server/login.php") ?>
       <div class="GioHang">
-        <span><a href="{% static 'GioHang.php' %}">Giỏ Hàng</a></span>
+        <span><a href="GioHang.php">Giỏ Hàng</a></span>
       </div>
     </div>
   </div>
