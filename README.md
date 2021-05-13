@@ -1,5 +1,5 @@
 # Django_Gear_Selling_Website
--Website chỉ bán VGA <br>
+-Website bán gear, nhưng hiện tại tụi em làm chuột với bàn phím <br>
 -Người dùng có 3 nhóm: Nhóm thứ nhất là nhóm người có quyền đăng các sản phẩm mới, thay đổi thông tin sản phẩm. Nhóm thứ hai: Nhóm tư vấn viên, là nhóm người dùng có chức năng phản hồi các tương tác của khách hàng. Nhóm thứ ba là khách hàng.<br>
 -Hỗ trợ tính năng search<br>
 -Hiển thị thông tin chi tiết của sản phẩm<br>
