@@ -1,3 +1,5 @@
+{% load static %}
+{% block content %}
 <!DOCTYPE html>
 <html style="cursor: url(../Cursor/cursor.cur),default;">
   <head>
@@ -7,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="../css/Frame.css" type="text/css" />
+    <link rel="stylesheet" href="/css/Frame.css" type="text/css" />
     <link rel="stylesheet" href="../css/CardSanPham.css" type="text/css" />
     <link rel="stylesheet" href="../css/ColumnThongTin.css" />
     <script
@@ -29,3 +31,4 @@
     <?php include_once('footer.php'); ?>
   </body>
 </html>
+{% endblock %}

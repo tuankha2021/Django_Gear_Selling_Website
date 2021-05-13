@@ -14,7 +14,7 @@
 </head>
 
 <body id="">
-  <?php include_once('head.php'); ?>
+  {% include "head.php"%}
   <div style="padding-top: 100px;">
     <div class="Black">
       <div class="col-container">
@@ -74,7 +74,7 @@
     </div>
   </div>
   </div>
-  <?php include_once('footer.php'); ?>
+  {% include "footer.php"%}
 </body>
 
 </html>

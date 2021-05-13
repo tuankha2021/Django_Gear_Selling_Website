@@ -1,3 +1,5 @@
+{% load static %}
+{% block content %}
 <div class="footer" style="
     padding: 20px;
     text-align: left;
@@ -54,3 +56,5 @@
     </div>
   </div>
 </div>
+
+{% endblock %}
