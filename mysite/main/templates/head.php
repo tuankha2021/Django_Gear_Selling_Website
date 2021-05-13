@@ -1,7 +1,7 @@
 {% load static %}
 {% block content %}
 <header id="main-menu" class="main-menu">
-  <script src="{% static 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' %}"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="{% static 'js/DangNhap.js' %}" language="javascript"></script>
   <script type="text/javascript" src="{% static 'js/Logout.js' %}" language="javascript"></script>
   <div class="top-menu">
@@ -32,9 +32,9 @@
       </form>
     </div>
     <div class="accountField">
-      <?php include_once("../server/login.php") ?>
+      <?php include_once("server/login.php") ?>
       <div class="GioHang">
-        <span><a href="GioHang.php">Giỏ Hàng</a></span>
+        <span><a href="{% static 'GioHang.php' %}">Giỏ Hàng</a></span>
       </div>
     </div>
   </div>
