@@ -6,3 +6,6 @@ def TrangChu(request):
 
 def DsSanPham(request):
     return render(request, 'DsSanPham.php')
+
+def ThongTin(request):
+    return render(request, 'ThongTin.php')

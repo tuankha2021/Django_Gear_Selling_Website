@@ -12,7 +12,7 @@
     $(".btn_addcart").click(function() {
       masanpham = $(this).attr('id');
       magiohang = 1;
-      $.post("../server/AddToCart.php", {
+      $.post("/server/AddToCart.php", {
         magiohang: magiohang,
         masanpham: masanpham
       }, function(data) {

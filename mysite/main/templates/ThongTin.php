@@ -1,13 +1,15 @@
+{% load static %}
+{% block content %}
 <!DOCTYPE html>
-<html style="cursor: url(../Cursor/cursor.cur),default;">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>Thông Tin</title>
-    <link rel="stylesheet" href="../css/Info.css" />
-    <link rel="stylesheet" href="../css/Frame.css" />
-    <link rel="stylesheet" href="../css/ColumnThongTin.css" />
-    <link rel="stylesheet" href="../css/Slide.css" />
-    <link rel="stylesheet" href="../css/Clock.css" />
+    <link rel="stylesheet" href="{% static '/css/Info.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/Frame.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/ColumnThongTin.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/Slide.css'%}" />
+    <link rel="stylesheet" href="{% static '/css/Clock.css'%}" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -15,13 +17,13 @@
     <script
       type="text/javascript"
       language="javascript"
-      src="../js/Frame.js"
+      src="{% static '/js/Frame.js'%}"
     ></script>
-    <script src="../js/Slide.js"></script>
-    <script src="../js/Clock.js"></script>
+    <script src="{% static '/js/Slide.js'%}"></script>
+    <script src="{% static '/js/Clock.js'%}"></script>
   </head>
   <body>
-    <?php include_once('head.php'); ?>
+  {% include "head.php"%}
     <div class="header" style="margin-top: 100px">
       <h1>Công Ty Vô Trách Nhiệm 2 Thành Viên</h1>
     </div>
@@ -31,7 +33,7 @@
           <h1>Thông Tin Trang Web</h1>
           <div>
             <img
-              src="../images/1610154939426.jpg"
+              src="{% static '/images/1610154939426.jpg'%}"
               alt=""
               style="width: 80%"
               class="center"
@@ -40,17 +42,6 @@
           <p style="font-size: 20px">
             Thành lập với mục đích làm đồ án môn học cuối HK
           </p>
-          <p style="font-size: 20px">Giáo Viên Hướng Dẫn:</p>
-          <br /><b
-            ><a href="https://courses.uit.edu.vn/user/profile.php?id=8746"
-              >Thầy Võ Ngọc Tân</a
-            ></b
-          >
-          <br /><b
-            ><a href="https://courses.uit.edu.vn/user/profile.php?id=13651"
-              >Thầy Tô Quốc Huy</a
-            ></b
-          >
         </div>
         <div class="card">
           <h1>Danh Sách Sản Phẩm</h1>
@@ -189,7 +180,7 @@
           <div>
             <a href="TrangChu.php"
               ><img
-                src="../images/logo.png"
+                src="{% static '/images/logo.png'%}"
                 alt=""
                 style="width: 80%"
                 class="center"
@@ -214,7 +205,7 @@
           </div>
           <br />
           <div>
-            <a href="../client/DsSanPham.php">
+            <a href="DsSanPham.php">
             <img
               src="https://news.gearvn.com/wp-content/uploads/2020/09/67456756767.jpg"
               alt=""
@@ -245,6 +236,7 @@
         </div>
       </div>
     </div>
-    <?php include_once('footer.php'); ?>
+    {% include "footer.php"%}
   </body>
 </html>
+{% endblock %}
