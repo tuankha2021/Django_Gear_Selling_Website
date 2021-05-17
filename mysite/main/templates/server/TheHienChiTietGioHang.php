@@ -1,3 +1,5 @@
+{% load static %}
+{% block content %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
 <script>
   $(document).ready(function() {
@@ -31,3 +33,4 @@ foreach ($chitietgiohang as $chitiet) {
 echo '<tr><td colspan=4>Tổng</td><td>' . number_format($tong) . '</td></tr>';
 echo "</table>";
 ?>
+{% endblock %}

@@ -26,7 +26,7 @@
   <body>
   {% include "head.php"%}
     <div class="dssp">
-   {% include "thehiensanpham.php"}
+   {% include "server/thehiensanpham.php"%}
     </div>
     {% include "footer.php"%}
   </body>
